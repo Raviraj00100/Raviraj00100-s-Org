@@ -1,0 +1,248 @@
+{
+  "polls": [
+    {
+      "id": "poll_9b8e14ad8772",
+      "title": "what is your name",
+      "category": "General",
+      "options": [
+        {
+          "id": "opt_1_402549",
+          "text": "ww",
+          "voteCount": 0,
+          "displayOrder": 0
+        },
+        {
+          "id": "opt_2_0a5c3c",
+          "text": "ss",
+          "voteCount": 0,
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-07T17:41:31.302Z",
+      "startsAt": null,
+      "expiresAt": null,
+      "status": "active",
+      "visibility": "public",
+      "allowMultipleChoices": false,
+      "allowVoteChanges": false,
+      "randomizeOptions": false,
+      "resultsVisibility": "immediately",
+      "showResultsBeforeClosure": true,
+      "totalVotes": 0,
+      "creatorTokenHash": "1c3e47e15e3a2804c1f0f47ee53985f86ea04ee7deb5d25f885bd4b3c006572a"
+    }
+  ],
+  "votes": [],
+  "suggestions": [],
+  "suggestionVotes": [],
+  "securityLogs": [
+    {
+      "id": "sec_42e6a76b0fd3",
+      "type": "UNAUTHORIZED_ACCESS",
+      "details": "Forbidden: Non-owner account attempted admin access",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:54:13.809Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_0d8ef07e261c",
+      "type": "LOGIN_SUCCESS",
+      "details": "Owner administrator successfully authenticated (rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:54:13.780Z",
+      "severity": "info"
+    },
+    {
+      "id": "sec_c43d4cfc4ad1",
+      "type": "UNAUTHORIZED_ACCESS",
+      "details": "Unauthorized attempt to query administrator polls",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:43:57.823Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_48e4e1ea9771",
+      "type": "LOGIN_SUCCESS",
+      "details": "Owner administrator successfully authenticated (rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:43:57.787Z",
+      "severity": "info"
+    },
+    {
+      "id": "sec_77f61514a853",
+      "type": "UNAUTHORIZED_ACCESS",
+      "details": "Unauthorized attempt to query administrator polls",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:29:54.900Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_2a9e6228286b",
+      "type": "LOGIN_SUCCESS",
+      "details": "Owner administrator successfully authenticated (rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:29:54.871Z",
+      "severity": "info"
+    },
+    {
+      "id": "sec_5c2a7722ccbc",
+      "type": "LOGIN_SUCCESS",
+      "details": "Owner administrator successfully authenticated (rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:29:46.250Z",
+      "severity": "info"
+    },
+    {
+      "id": "sec_72d3251e43d4",
+      "type": "LOGIN_SUCCESS",
+      "details": "Owner administrator successfully authenticated (rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:29:37.242Z",
+      "severity": "info"
+    },
+    {
+      "id": "sec_f6a1414cc521",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: wrong@test.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:29:32.643Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_3ed5a28bfd5b",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:22:11.805Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_97073931d270",
+      "type": "UNAUTHORIZED_ACCESS",
+      "details": "Unauthorized attempt to query administrator polls",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:18:55.888Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_04d83188141f",
+      "type": "LOGIN_SUCCESS",
+      "details": "Owner administrator successfully authenticated (rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T18:18:26.288Z",
+      "severity": "info"
+    },
+    {
+      "id": "sec_828d36a39fd7",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: attacker@domain.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:51:05.815Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_e1bccd607502",
+      "type": "LOGIN_SUCCESS",
+      "details": "Owner administrator successfully authenticated (rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:51:05.790Z",
+      "severity": "info"
+    },
+    {
+      "id": "sec_ca0f5f597fe3",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: rajravi000100@gmail.com)",
+      "ip": "2409:40f4:2102:208c:4068:2e6a:94fd:94f3, 169.254.169.126",
+      "timestamp": "2026-11-07T17:50:45.277Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_9674349bb5f3",
+      "type": "LOGIN_SUCCESS",
+      "details": "Owner administrator successfully authenticated (rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:59.002Z",
+      "severity": "info"
+    },
+    {
+      "id": "sec_7b1e5e952b4e",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: rajravi000100@gmail.com)",
+      "ip": "2409:40f4:2102:208c:4068:2e6a:94fd:94f3, 169.254.169.126",
+      "timestamp": "2026-11-07T17:49:48.795Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_86a3863fed81",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: bad_actor@intruder.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:39.938Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_06ffb2299948",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: bad_actor@intruder.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:39.933Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_cc34ab1881f0",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: bad_actor@intruder.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:39.928Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_876add4b6615",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: bad_actor@intruder.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:39.923Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_52b7b11eea45",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: bad_actor@intruder.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:39.919Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_84951e4c9bbe",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: bad_actor@intruder.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:39.907Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_895a0ac4cec4",
+      "type": "LOGIN_SUCCESS",
+      "details": "Owner administrator successfully authenticated (rajravi000100@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:34.013Z",
+      "severity": "info"
+    },
+    {
+      "id": "sec_9e64c6f76f60",
+      "type": "UNAUTHORIZED_ACCESS",
+      "details": "Unauthorized attempt to query administrator polls",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:34.007Z",
+      "severity": "warning"
+    },
+    {
+      "id": "sec_393acf7b0b39",
+      "type": "LOGIN_FAILED",
+      "details": "Unauthorized owner access attempt (Identifier: hacker@evil.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-07T17:49:34.003Z",
+      "severity": "warning"
+    }
+  ]
+}

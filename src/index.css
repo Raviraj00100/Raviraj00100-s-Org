@@ -1,0 +1,168 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* VoteSphere 2.0 Brand Tokens */
+    --color-vs-bg: #090714;
+    --color-vs-surface: #100D20;
+    --color-vs-card: #17122A;
+    --color-vs-primary: #8B5CF6;
+    --color-vs-secondary: #A855F7;
+    --color-vs-accent: #C084FC;
+    --color-vs-text: #FFFFFF;
+    --color-vs-subtext: #A5A0B5;
+    --color-vs-border: rgba(167, 139, 250, 0.18);
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-sans);
+    background-color: #090714;
+    color: #FFFFFF;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Dark mode theme root */
+.dark body {
+  background-color: #090714;
+  color: #FFFFFF;
+}
+
+/* Light mode fallback (if user switches theme) */
+:not(.dark) body {
+  background-color: #F8F9FC;
+  color: #0F172A;
+}
+
+/* VoteSphere 2.0 Surface & Glassmorphic Utilities */
+.vs-bg {
+  background-color: #090714;
+}
+
+.vs-surface {
+  background-color: #100D20;
+}
+
+.vs-card {
+  background-color: #17122A;
+  border: 1px solid rgba(167, 139, 250, 0.18);
+}
+
+:not(.dark) .vs-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.glass-panel {
+  background: rgba(16, 13, 32, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(167, 139, 250, 0.18);
+}
+
+:not(.dark) .glass-panel {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.subtle-glow {
+  box-shadow: 0 0 50px -10px rgba(139, 92, 246, 0.25);
+}
+
+.subtle-card-hover {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subtle-card-hover:hover {
+  transform: translateY(-2px);
+  border-color: rgba(167, 139, 250, 0.35);
+  box-shadow: 0 12px 30px -10px rgba(139, 92, 246, 0.2);
+}
+
+/* Safe area padding utilities for mobile */
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom, 1rem));
+}
+
+.pt-safe {
+  padding-top: max(1rem, env(safe-area-inset-top, 1rem));
+}
+
+/* Touch targets: at least 44px on interactive controls */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(167, 139, 250, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(167, 139, 250, 0.45);
+}
+
+/* Fluid responsive typography helpers */
+.text-fluid-hero {
+  font-size: clamp(2rem, 5vw + 1rem, 3.75rem);
+  line-height: 1.1;
+}
+
+.text-fluid-section {
+  font-size: clamp(1.5rem, 3vw + 0.5rem, 2.25rem);
+  line-height: 1.2;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

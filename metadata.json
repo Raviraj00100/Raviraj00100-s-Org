@@ -1,0 +1,6 @@
+{
+  "name": "VoteSphere",
+  "description": "Universal anonymous voting, instant polls, and community suggestions platform. Every vote, every voice, every choice — with zero login required.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
